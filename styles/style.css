@@ -1,0 +1,438 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+.header {
+    border-bottom: 1px solid  #D6D6D6;
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1390px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-titl {
+    color: #01996D;
+    font-family: Libre Baskerville;
+}
+
+.menu {
+    margin-left: 145px ;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 70px;
+}
+
+.menu-item a {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid black;
+}
+
+.sign a {
+    margin-left: 65px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #292929;;
+}
+
+.sign a:hover {
+    border-bottom: 2px solid black;
+    
+}
+
+.header-action {
+    margin-left: -80px;
+}
+
+.button {
+    align-items: center;
+    padding: 13px 50px;
+    gap: 30px;
+    
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    color: white;
+    font-family: lato;
+
+    transition: background-color .5s;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #575757;
+}
+
+
+/* intro */
+
+.intro {
+    background-image: url(../images/raduflorin.png);
+    background-position: center; 
+    background-size: cover;
+    height: 100%;
+}
+
+.info {
+    padding-top: 170px;
+}
+
+.title.info {
+    margin-bottom: 30px;
+    width: 450px;
+    font-family: Libre Baskerville;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 74px;
+
+    color: #01996D;
+}
+
+.text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+
+    color: #484848;
+}
+
+.text.intro{
+    width: 420px;
+    background: none;
+    padding-bottom: 30px;
+    margin-bottom: 18px;
+}
+
+.button.intro-action{
+    margin-bottom: 250px;
+    font-size: 20px;
+}
+
+/* main */
+
+.main-info {
+    margin-top: 220px;
+}
+
+.supTitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+
+    color: #424242;
+}
+
+.firstTitle {
+    width: 584px;
+    font-family: Libre Baskerville;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 79px;
+
+    color: #01996D;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text.main {
+    padding-top: 33.6px;
+    font-size: 20px;
+    width: 550px;
+    line-height: 30px;
+
+    color: #424242;
+}
+
+.aside {
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.card-item {
+    width: 33.333%;
+}
+
+.number {
+    font-family: Libre Baskerville;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150px;
+
+    color: rgba(1, 153, 109, 0.2);
+}
+
+.number-title {
+    margin-top: -64px;
+    margin-left: 100px;
+    font-family: Libre Baskerville;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+
+    color: #000000;
+
+}
+
+.text.card-aside {
+    margin-top: 55px;
+    margin-bottom: 60px;
+    width: 382px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.card-item.two {
+    margin-top: 260px;
+} 
+
+/* story */
+
+.story {
+    background: #245852;
+}
+
+.container.story {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 229px;
+    height: 90vh;
+}
+
+.story-info {
+    width: 580px;
+}
+
+.story-title {
+    padding-top: 60px;
+    margin-bottom: 33px;
+    font-family: Libre Baskerville;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 79px;
+
+    color: #FFFFFF;
+}
+
+.text-story {
+    margin-bottom: 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+
+.button.story-action {
+    padding: 20px 50px;
+    font-size: 20px;
+}
+
+
+/* ourProduct */
+
+.container.ourProduct-main {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.ourProduct-img {
+    background: rgba(1, 153, 109, 0.2);
+    width: 639px;
+    height: 574px;
+    text-align: center;
+    border-radius: 18.1125px;
+    margin-left: 50px;
+}
+
+.card-ourProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 297px;
+    margin-top: -224px;
+    background: white;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px #e5e5f0, 5px 0px 16px #e5e5f0;
+}
+
+.title_card-ourProduct {
+    padding-top: 30px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+
+    color: #000000;
+}
+
+.title_card-ourProduct::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin: 14px auto 0;
+    margin-bottom: 14px;
+}
+
+
+.photo-card-img {
+    border-radius: 100%;
+    background: rgba(1, 153, 109, 0.2); 
+}
+
+.photo-card {
+    margin-bottom: 10px;
+}
+
+.nameUser {
+    margin-bottom: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+
+    color: #000000;
+}
+
+.customContents {
+    margin-bottom: 16px;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #000000;
+}
+
+.youContents {
+    margin-left: -13px;
+}  
+
+.item-youContents {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.supTitle {
+    margin-bottom: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+
+    color: #424242;
+}
+
+.title-product-info {
+    width: 541px;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 79px;
+
+    color: #01996D;
+}
+
+.text.ourProduct-info {
+    width: 530px;
+    font-size: 20px;
+    line-height: 31px;
+    margin-bottom: 40px;
+}
+
+.button.product-action {
+    font-size: 20px;
+}
+
+/* footer */
+
+.footer {
+    background: #245852;
+}
+
+.logo-titl.footer-title {
+    padding-top: 95px;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.footer-menu {
+    margin-top: 60px;
+}
+
+.footer-menu ul {
+    list-style: none;
+}
+
+.foorer-item {
+    padding-bottom: 60px;
+}
+
+.foorer-item a{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.foorer-item a:hover {
+    border-bottom: 2px solid #FFFFFF;
+}
